@@ -15,8 +15,8 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: ingress-wordpress
-  namespace: wordpress-argocd
+  name: ingress-nginx
+  namespace: argo-demo
 spec:
   ingressClassName: nginx
   rules:
