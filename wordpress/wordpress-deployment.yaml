@@ -39,11 +39,12 @@ metadata:
   labels:
     app: wordpress
 spec:
+  namespace: wordpress-argocd
   accessModes:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 20Gi
+      storage: 10Gi
 ---
 apiVersion: apps/v1
 kind: Deployment
