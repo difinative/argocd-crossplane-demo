@@ -39,7 +39,7 @@ metadata:
   labels:
     app: wordpress
 spec:
-  namespace: wordpress-argocd
+  storageClassName: manual
   accessModes:
     - ReadWriteOnce
   resources:
